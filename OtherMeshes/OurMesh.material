@@ -1,0 +1,58 @@
+material Windows
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 1.000000
+			diffuse 0.522384 0.533952 0.548765 1.000000
+			specular 0.500000 0.500000 0.500000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+material Pole
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 1.000000
+			diffuse 0.143090 0.143090 0.143090 1.000000
+			specular 0.500000 0.500000 0.500000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+material Windows.001
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 1.000000
+			diffuse 0.183897 0.358788 0.405655 1.000000
+			specular 0.500000 0.500000 0.500000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+material Dome
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 0.585714
+			diffuse 0.763591 0.814286 0.090757 0.585714
+			specular 0.500000 0.500000 0.500000 0.585714 12.500000
+			emissive 0.000000 0.000000 0.000000 0.585714
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+}

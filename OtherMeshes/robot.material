@@ -1,0 +1,15 @@
+material Examples/Robot
+{
+	
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture r2skin.jpg
+			}
+		}
+	}
+}

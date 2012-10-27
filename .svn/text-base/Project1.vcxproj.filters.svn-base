@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="vrpn">
+      <UniqueIdentifier>{03340368-b6c5-401a-9133-1cc3382b8218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{0f04f870-fdcd-48d4-8279-1b02be267783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="btOgre">
+      <UniqueIdentifier>{da7bffc1-0be2-4e40-9456-7ca7b7a57608}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FAASTClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicMotionState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtOgre.cpp">
+      <Filter>btOgre</Filter>
+    </ClCompile>
+    <ClCompile Include="DotSceneLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenALSoundSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FAASTClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_3DConnexion.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_3DMicroscribe.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_3Space.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_5DT16.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_ADBox.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Analog.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Analog_5dt.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Analog_Output.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Analog_Radamec_SPI.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Analog_USDigital_A2.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Atmel.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Auxiliary_Logger.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_BaseClass.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Button.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Button_NI_DIO24.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Button_USB.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_CerealBox.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Configure.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Connection.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_ConnectionTypes.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Dial.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_DirectXFFJoystick.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_DirectXRumblePad.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Dyna.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Event.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Event_Analog.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Event_Mouse.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_FileConnection.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_FileController.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Flock.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Flock_Parallel.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_ForceDevice.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_ForceDeviceServer.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Forwarder.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_ForwarderController.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_FunctionGenerator.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_GlobalHapticsOrb.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_HashST.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_HumanInterface.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Imager.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Imager_Stream_Buffer.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_ImmersionBox.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_inertiamouse.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_JoyFly.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Joylin.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Joywin32.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Keyboard.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_LamportClock.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Log.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Magellan.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Mouse.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Mutex.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_NationalInstruments.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Nidaq.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_nikon_controls.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Poser.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Poser_Analog.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Poser_Tek4662.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_raw_sgibox.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_RedundantTransmission.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Serial.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_sgibox.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Shared.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_SharedObject.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Sound.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Spaceball.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Text.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tng3.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_3DMouse.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_AnalogFly.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_ButtonFly.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_Crossbow.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_DTrack.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_Fastrak.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_isense.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_Liberty.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_MotionNode.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_NDI_Polaris.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Tracker_PhaseSpace.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_TypeDispatcher.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Types.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_UNC_Joystick.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_VPJoystick.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Wanda.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_WiiMote.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_XInputGamepad.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Xkeys.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn\vrpn_Zaber.h">
+      <Filter>vrpn</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicMotionState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtOgreExtras.h">
+      <Filter>btOgre</Filter>
+    </ClInclude>
+    <ClInclude Include="BtOgreGP.h">
+      <Filter>btOgre</Filter>
+    </ClInclude>
+    <ClInclude Include="BtOgrePG.h">
+      <Filter>btOgre</Filter>
+    </ClInclude>
+    <ClInclude Include="DotSceneLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenALSoundSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="vrpn\vrpn.lib">
+      <Filter>vrpn</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources.cfg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="plugins.cfg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="plugins_release.cfg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="brick.material">
+      <Filter>Materials</Filter>
+    </None>
+  </ItemGroup>
+</Project>

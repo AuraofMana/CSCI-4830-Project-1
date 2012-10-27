@@ -1,0 +1,833 @@
+03:12:06: Creating resource group General
+03:12:06: Creating resource group Internal
+03:12:06: Creating resource group Autodetect
+03:12:06: SceneManagerFactory for type 'DefaultSceneManager' registered.
+03:12:06: Registering ResourceManager for type Material
+03:12:06: Registering ResourceManager for type Mesh
+03:12:06: Registering ResourceManager for type Skeleton
+03:12:06: MovableObjectFactory for type 'ParticleSystem' registered.
+03:12:06: OverlayElementFactory for type Panel registered.
+03:12:06: OverlayElementFactory for type BorderPanel registered.
+03:12:06: OverlayElementFactory for type TextArea registered.
+03:12:06: Registering ResourceManager for type Font
+03:12:06: ArchiveFactory for archive type FileSystem registered.
+03:12:06: ArchiveFactory for archive type Zip registered.
+03:12:06: DDS codec registering
+03:12:06: FreeImage version: 3.13.1
+03:12:06: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+03:12:06: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+03:12:06: Registering ResourceManager for type HighLevelGpuProgram
+03:12:06: Registering ResourceManager for type Compositor
+03:12:06: MovableObjectFactory for type 'Entity' registered.
+03:12:06: MovableObjectFactory for type 'Light' registered.
+03:12:06: MovableObjectFactory for type 'BillboardSet' registered.
+03:12:06: MovableObjectFactory for type 'ManualObject' registered.
+03:12:06: MovableObjectFactory for type 'BillboardChain' registered.
+03:12:06: MovableObjectFactory for type 'RibbonTrail' registered.
+03:12:06: Loading library .\RenderSystem_Direct3D9
+03:12:06: Installing plugin: D3D9 RenderSystem
+03:12:06: D3D9 : Direct3D9 Rendering Subsystem created.
+03:12:06: D3D9: Driver Detection Starts
+03:12:06: D3D9: Driver Detection Ends
+03:12:06: Plugin successfully installed
+03:12:06: Loading library .\RenderSystem_GL
+03:12:07: Installing plugin: GL RenderSystem
+03:12:07: OpenGL Rendering Subsystem created.
+03:12:08: Plugin successfully installed
+03:12:08: Loading library .\Plugin_ParticleFX
+03:12:08: Installing plugin: ParticleFX
+03:12:08: Particle Emitter Type 'Point' registered
+03:12:08: Particle Emitter Type 'Box' registered
+03:12:08: Particle Emitter Type 'Ellipsoid' registered
+03:12:08: Particle Emitter Type 'Cylinder' registered
+03:12:08: Particle Emitter Type 'Ring' registered
+03:12:08: Particle Emitter Type 'HollowEllipsoid' registered
+03:12:08: Particle Affector Type 'LinearForce' registered
+03:12:08: Particle Affector Type 'ColourFader' registered
+03:12:08: Particle Affector Type 'ColourFader2' registered
+03:12:08: Particle Affector Type 'ColourImage' registered
+03:12:08: Particle Affector Type 'ColourInterpolator' registered
+03:12:08: Particle Affector Type 'Scaler' registered
+03:12:08: Particle Affector Type 'Rotator' registered
+03:12:08: Particle Affector Type 'DirectionRandomiser' registered
+03:12:08: Particle Affector Type 'DeflectorPlane' registered
+03:12:08: Plugin successfully installed
+03:12:08: Loading library .\Plugin_BSPSceneManager
+03:12:08: Installing plugin: BSP Scene Manager
+03:12:08: Plugin successfully installed
+03:12:08: Loading library .\Plugin_CgProgramManager
+03:12:09: Installing plugin: Cg Program Manager
+03:12:09: Plugin successfully installed
+03:12:09: Loading library .\Plugin_PCZSceneManager
+03:12:09: Installing plugin: Portal Connected Zone Scene Manager
+03:12:09: PCZone Factory Type 'ZoneType_Default' registered
+03:12:09: Plugin successfully installed
+03:12:09: Loading library .\Plugin_OctreeZone
+03:12:09: Installing plugin: Octree Zone Factory
+03:12:09: Plugin successfully installed
+03:12:09: Loading library .\Plugin_OctreeSceneManager
+03:12:09: Installing plugin: Octree & Terrain Scene Manager
+03:12:09: Plugin successfully installed
+03:12:09: *-*-* OGRE Initialising
+03:12:09: *-*-* Version 1.7.2 (Cthugha)
+03:12:09: CPU Identifier & Features
+03:12:09: -------------------------
+03:12:09:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7 CPU         930  @ 2.80GHz
+03:12:09:  *      SSE: yes
+03:12:09:  *     SSE2: yes
+03:12:09:  *     SSE3: yes
+03:12:09:  *      MMX: yes
+03:12:09:  *   MMXEXT: yes
+03:12:09:  *    3DNOW: no
+03:12:09:  * 3DNOWEXT: no
+03:12:09:  *     CMOV: yes
+03:12:09:  *      TSC: yes
+03:12:09:  *      FPU: yes
+03:12:09:  *      PRO: yes
+03:12:09:  *       HT: no
+03:12:09: -------------------------
+03:12:09: *** Starting Win32GL Subsystem ***
+03:12:09: Added resource location './' of type 'FileSystem' to resource group 'General'
+03:12:09: Added resource location 'City/' of type 'FileSystem' to resource group 'General'
+03:12:09: Added resource location 'ACC/' of type 'FileSystem' to resource group 'General'
+03:12:09: Added resource location 'TexturesACC/' of type 'FileSystem' to resource group 'General'
+03:12:09: Added resource location 'TexturesCity/' of type 'FileSystem' to resource group 'General'
+03:12:09: Added resource location 'OtherMeshes/' of type 'FileSystem' to resource group 'General'
+03:12:09: GLRenderSystem::_createRenderWindow "Project 1", 0x0 windowed  miscParams: externalWindowHandle=0 parentWindowHandle=0 
+03:12:09: Created Win32Window 'Project 1' : 16x38, 32bpp
+03:12:10: GL_VERSION = 4.1.10524 Compatibility Profile Context
+03:12:10: GL_VENDOR = ATI Technologies Inc.
+03:12:10: GL_RENDERER = ATI Radeon HD 5800 Series 
+03:12:10: GL_EXTENSIONS = GL_AMDX_debug_output GL_AMDX_vertex_shader_tessellator GL_AMD_conservative_depth GL_AMD_debug_output GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_name_gen_delete GL_AMD_performance_monitor GL_AMD_sample_positions GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trace GL_AMD_texture_cube_map_array GL_AMD_texture_texture4 GL_AMD_transform_feedback3_lines_triangles GL_AMD_vertex_shader_tessellator GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_color_buffer_float GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_subroutine GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_shadow_ambient GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_snorm GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_envmap_bumpmap GL_ATI_fragment_shader GL_ATI_meminfo GL_ATI_separate_stencil GL_ATI_texture_compression_3dc GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_copy_buffer GL_EXT_copy_texture GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_histogram GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_EXT_subtexture GL_EXT_texgen_reflection GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_bptc GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_explicit_multisample GL_NV_float_buffer GL_NV_half_float GL_NV_primitive_restart GL_NV_texgen_reflection GL_NV_texture_barrier GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays GL_WIN_swap_hint WGL_EXT_swap_control
+03:12:10: Supported WGL extensions: WGL_ARB_extensions_string WGL_ARB_pixel_format WGL_ATI_pixel_format_float WGL_ARB_pixel_format_float WGL_ARB_multisample WGL_EXT_swap_control WGL_ARB_pbuffer WGL_ARB_render_texture WGL_ARB_make_current_read WGL_EXT_extensions_string WGL_ARB_buffer_region WGL_EXT_framebuffer_sRGB WGL_ATI_render_texture_rectangle WGL_EXT_pixel_format_packed_float WGL_I3D_genlock WGL_NV_swap_group WGL_ARB_create_context WGL_AMD_gpu_association WGL_AMDX_gpu_association WGL_ARB_create_context_profile WGL_NV_float_buffer
+03:12:10: ***************************
+03:12:10: *** GL Renderer Started ***
+03:12:10: ***************************
+03:12:10: Registering ResourceManager for type GpuProgram
+03:12:10: GLSL support detected
+03:12:10: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+03:12:10: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_L8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_L16 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_A4L4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_BYTE_LA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_B5G6R5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_SHORT_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_FLOAT16_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_FLOAT32_GR depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+03:12:11: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_L16 PF_A8 PF_A4L4 PF_BYTE_LA PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_SHORT_GR PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB 
+03:12:11: RenderSystem capabilities
+03:12:11: -------------------------
+03:12:11: RenderSystem Name: OpenGL Rendering Subsystem
+03:12:11: GPU Vendor: ati
+03:12:11: Device Name: ATI Radeon HD 5800 Series 
+03:12:11: Driver Version: 4.1.10524.0
+03:12:11:  * Fixed function pipeline: yes
+03:12:11:  * Hardware generation of mipmaps: yes
+03:12:11:  * Texture blending: yes
+03:12:11:  * Anisotropic texture filtering: yes
+03:12:11:  * Dot product texture operation: yes
+03:12:11:  * Cube mapping: yes
+03:12:11:  * Hardware stencil buffer: yes
+03:12:11:    - Stencil depth: 8
+03:12:11:    - Two sided stencil support: yes
+03:12:11:    - Wrap stencil values: yes
+03:12:11:  * Hardware vertex / index buffers: yes
+03:12:11:  * Vertex programs: yes
+03:12:11:  * Number of floating-point constants for vertex programs: 256
+03:12:11:  * Number of integer constants for vertex programs: 0
+03:12:11:  * Number of boolean constants for vertex programs: 0
+03:12:11:  * Fragment programs: yes
+03:12:11:  * Number of floating-point constants for fragment programs: 256
+03:12:11:  * Number of integer constants for fragment programs: 0
+03:12:11:  * Number of boolean constants for fragment programs: 0
+03:12:11:  * Geometry programs: yes
+03:12:11:  * Number of floating-point constants for geometry programs: 256
+03:12:11:  * Number of integer constants for geometry programs: 0
+03:12:11:  * Number of boolean constants for geometry programs: 0
+03:12:11:  * Supported Shader Profiles: arbfp1 arbvp1 glsl gp4gp gpu_gp nvgp4 ps_1_1 ps_1_2 ps_1_3 ps_1_4
+03:12:11:  * Texture Compression: yes
+03:12:11:    - DXT: yes
+03:12:11:    - VTC: no
+03:12:11:    - PVRTC: no
+03:12:11:  * Scissor Rectangle: yes
+03:12:11:  * Hardware Occlusion Query: yes
+03:12:11:  * User clip planes: yes
+03:12:11:  * VET_UBYTE4 vertex element type: yes
+03:12:11:  * Infinite far plane projection: yes
+03:12:11:  * Hardware render-to-texture: yes
+03:12:11:  * Floating point textures: yes
+03:12:11:  * Non-power-of-two textures: yes
+03:12:11:  * Volume textures: yes
+03:12:11:  * Multiple Render Targets: 8
+03:12:11:    - With different bit depths: yes
+03:12:11:  * Point Sprites: yes
+03:12:11:  * Extended point parameters: yes
+03:12:12:  * Max Point Size: 8192
+03:12:12:  * Vertex texture fetch: yes
+03:12:12:  * Number of world matrices: 0
+03:12:12:  * Number of texture units: 16
+03:12:12:  * Stencil buffer depth: 8
+03:12:12:  * Number of vertex blend matrices: 0
+03:12:12:    - Max vertex textures: 16
+03:12:12:    - Vertex textures shared: yes
+03:12:12:  * Render to Vertex Buffer : no
+03:12:12:  * GL 1.5 without VBO workaround: no
+03:12:12:  * Frame Buffer objects: yes
+03:12:12:  * Frame Buffer objects (ARB extension): no
+03:12:12:  * Frame Buffer objects (ATI extension): no
+03:12:12:  * PBuffer support: yes
+03:12:12:  * GL 1.5 without HW-occlusion workaround: no
+03:12:12: Registering ResourceManager for type Texture
+03:12:12: DefaultWorkQueue('Root') initialising on thread 006DBA70.
+03:12:12: DefaultWorkQueue('Root')::WorkerFunc - thread 006FAA40 starting.
+03:12:12: DefaultWorkQueue('Root')::WorkerFunc - thread 006FDA98 starting.
+03:12:12: DefaultWorkQueue('Root')::WorkerFunc - thread 00702C10 starting.
+03:12:12: DefaultWorkQueue('Root')::WorkerFunc - thread 006FAAB0 starting.
+03:12:12: DefaultWorkQueue('Root')::WorkerFunc - thread 006FB0B0 starting.
+03:12:12: DefaultWorkQueue('Root')::WorkerFunc - thread 006FABE0 starting.
+03:12:12: DefaultWorkQueue('Root')::WorkerFunc - thread 00707B50 starting.
+03:12:12: DefaultWorkQueue('Root')::WorkerFunc - thread 00707D40 starting.
+03:12:12: Particle Renderer Type 'billboard' registered
+03:12:12: SceneManagerFactory for type 'BspSceneManager' registered.
+03:12:12: Registering ResourceManager for type BspLevel
+03:12:12: SceneManagerFactory for type 'PCZSceneManager' registered.
+03:12:12: MovableObjectFactory for type 'PCZLight' registered.
+03:12:12: MovableObjectFactory for type 'Portal' registered.
+03:12:12: MovableObjectFactory for type 'AntiPortal' registered.
+03:12:12: PCZone Factory Type 'ZoneType_Octree' registered
+03:12:12: PCZone Factory Type 'ZoneType_Terrain' registered
+03:12:12: SceneManagerFactory for type 'OctreeSceneManager' registered.
+03:12:12: SceneManagerFactory for type 'TerrainSceneManager' registered.
+03:12:12: Parsing scripts for resource group Autodetect
+03:12:12: Finished parsing scripts for resource group Autodetect
+03:12:12: Parsing scripts for resource group General
+03:12:12: Parsing script brick.material
+03:12:12: Compiler error: unknown error in brick.material(10): token "lighting" is not recognized
+03:12:12: Compiler error: unknown error in brick.material(11): token "ambient" is not recognized
+03:12:12: Compiler error: unknown error in brick.material(12): token "diffuse" is not recognized
+03:12:12: Compiler error: unknown error in brick.material(13): token "specular" is not recognized
+03:12:12: Compiler error: unknown error in brick.material(14): token "emissive" is not recognized
+03:12:12: Parsing script ACC.material
+03:12:12: Parsing script city.material
+03:12:12: Parsing script OurMesh.material
+03:12:12: Parsing script robot.material
+03:12:12: Finished parsing scripts for resource group General
+03:12:12: Parsing scripts for resource group Internal
+03:12:12: Finished parsing scripts for resource group Internal
+03:12:12: FreeImage error: 'Exif: Suspicious offset of first IFD value' when loading format JPEG
+03:12:12: Texture: clouds.jpg: Loading 1 faces(PF_R8G8B8,1209x806x1) with 10 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1209x806x1.
+03:12:12: [DotSceneLoader] Parsing dotScene file with version 1.0.0
+03:12:12: Mesh: Loading ID2276.mesh.
+03:12:12: Mesh: Loading ID2270.mesh.
+03:12:12: Mesh: Loading ID2264.mesh.
+03:12:12: Mesh: Loading ID2258.mesh.
+03:12:12: Mesh: Loading ID2300.mesh.
+03:12:12: Mesh: Loading ID2294.mesh.
+03:12:12: Mesh: Loading ID2288.mesh.
+03:12:12: Mesh: Loading ID2282.mesh.
+03:12:12: Mesh: Loading ID2312.mesh.
+03:12:13: Mesh: Loading ID2306.mesh.
+03:12:13: Mesh: Loading ID1970.mesh.
+03:12:13: Mesh: Loading ID1658.mesh.
+03:12:13: Mesh: Loading ID1664.mesh.
+03:12:13: Mesh: Loading ID1670.mesh.
+03:12:13: Mesh: Loading ID1676.mesh.
+03:12:13: Mesh: Loading ID1682.mesh.
+03:12:13: Mesh: Loading ID1688.mesh.
+03:12:13: Mesh: Loading ID1694.mesh.
+03:12:13: Mesh: Loading ID1700.mesh.
+03:12:13: Mesh: Loading ID1706.mesh.
+03:12:13: Mesh: Loading ID1052.mesh.
+03:12:13: Mesh: Loading ID1070.mesh.
+03:12:13: Mesh: Loading ID1064.mesh.
+03:12:13: Mesh: Loading ID1082.mesh.
+03:12:13: Mesh: Loading ID1076.mesh.
+03:12:13: Mesh: Loading ID1094.mesh.
+03:12:13: Mesh: Loading ID1088.mesh.
+03:12:13: Mesh: Loading ID1976.mesh.
+03:12:13: Mesh: Loading ID1216.mesh.
+03:12:13: Mesh: Loading ID1210.mesh.
+03:12:13: Mesh: Loading ID1204.mesh.
+03:12:13: Mesh: Loading ID1198.mesh.
+03:12:13: Mesh: Loading ID1192.mesh.
+03:12:14: Mesh: Loading ID1186.mesh.
+03:12:14: Mesh: Loading ID1180.mesh.
+03:12:14: Mesh: Loading ID1174.mesh.
+03:12:14: Mesh: Loading ID1228.mesh.
+03:12:14: Mesh: Loading ID1222.mesh.
+03:12:14: Mesh: Loading ID612.001.mesh.
+03:12:14: Mesh: Loading ID620.mesh.
+03:12:14: Mesh: Loading ID588.mesh.
+03:12:14: Mesh: Loading ID594.mesh.
+03:12:14: Mesh: Loading ID600.001.mesh.
+03:12:14: Mesh: Loading ID606.mesh.
+03:12:14: Mesh: Loading ID564.mesh.
+03:12:14: Mesh: Loading ID570.mesh.
+03:12:14: Mesh: Loading ID576.mesh.
+03:12:14: Mesh: Loading ID582.mesh.
+03:12:14: Mesh: Loading ID678.mesh.
+03:12:14: Mesh: Loading ID684.mesh.
+03:12:14: Mesh: Loading ID652.mesh.
+03:12:14: Mesh: Loading ID658.mesh.
+03:12:14: Mesh: Loading ID664.mesh.
+03:12:14: Mesh: Loading ID670.mesh.
+03:12:14: Mesh: Loading ID626.mesh.
+03:12:14: Mesh: Loading ID634.mesh.
+03:12:14: Mesh: Loading ID640.mesh.
+03:12:14: Mesh: Loading ID646.mesh.
+03:12:14: Mesh: Loading ID36.mesh.
+03:12:14: Mesh: Loading ID30.mesh.
+03:12:14: Mesh: Loading ID24.mesh.
+03:12:14: Mesh: Loading ID18.mesh.
+03:12:14: Mesh: Loading ID12.mesh.
+03:12:14: Mesh: Loading ID2.001.mesh.
+03:12:14: Mesh: Loading ID48.001.mesh.
+03:12:14: Mesh: Loading ID42.001.mesh.
+03:12:14: Mesh: Loading ID2626.mesh.
+03:12:14: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID2626.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:14: [DotSceneLoader] Error loading an entity!
+03:12:14: Mesh: Loading ID2618.mesh.
+03:12:14: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID2618.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:14: [DotSceneLoader] Error loading an entity!
+03:12:14: Mesh: Loading ID2622.mesh.
+03:12:14: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID2622.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:14: [DotSceneLoader] Error loading an entity!
+03:12:14: Mesh: Loading ID72.001.mesh.
+03:12:14: Mesh: Loading ID1886.mesh.
+03:12:14: Mesh: Loading ID1892.mesh.
+03:12:14: Mesh: Loading ID84.001.mesh.
+03:12:14: Mesh: Loading ID1850.mesh.
+03:12:14: Mesh: Loading ID1856.mesh.
+03:12:14: Mesh: Loading ID1838.mesh.
+03:12:14: Mesh: Loading ID1844.mesh.
+03:12:14: Mesh: Loading ID1874.mesh.
+03:12:14: Mesh: Loading ID1880.mesh.
+03:12:14: Mesh: Loading ID1862.mesh.
+03:12:14: Mesh: Loading ID1868.mesh.
+03:12:14: Mesh: Loading ID1790.mesh.
+03:12:14: Mesh: Loading ID1796.mesh.
+03:12:14: Mesh: Loading ID1778.mesh.
+03:12:14: Mesh: Loading ID1784.mesh.
+03:12:14: Mesh: Loading ID1814.mesh.
+03:12:14: Mesh: Loading ID1820.mesh.
+03:12:14: Mesh: Loading ID1802.mesh.
+03:12:14: Mesh: Loading ID1808.mesh.
+03:12:14: Mesh: Loading ID1826.mesh.
+03:12:14: Mesh: Loading ID1832.mesh.
+03:12:14: Mesh: Loading ID872.mesh.
+03:12:14: Mesh: Loading ID878.mesh.
+03:12:14: Mesh: Loading ID884.mesh.
+03:12:14: Mesh: Loading ID890.mesh.
+03:12:14: Mesh: Loading ID896.mesh.
+03:12:14: Mesh: Loading ID902.mesh.
+03:12:14: Mesh: Loading ID908.mesh.
+03:12:14: Mesh: Loading ID914.mesh.
+03:12:15: Mesh: Loading ID920.mesh.
+03:12:15: Mesh: Loading ID926.mesh.
+03:12:15: Mesh: Loading ID108.mesh.
+03:12:15: Mesh: Loading ID2432.mesh.
+03:12:15: Mesh: Loading ID2426.mesh.
+03:12:15: Mesh: Loading ID1412.mesh.
+03:12:15: Mesh: Loading ID1406.mesh.
+03:12:15: Mesh: Loading ID1400.mesh.
+03:12:15: Mesh: Loading ID1394.mesh.
+03:12:15: Mesh: Loading ID1388.mesh.
+03:12:15: Mesh: Loading ID1382.mesh.
+03:12:15: Mesh: Loading ID1376.mesh.
+03:12:15: Mesh: Loading ID1370.mesh.
+03:12:15: Mesh: Loading ID1364.mesh.
+03:12:15: Mesh: Loading ID1358.mesh.
+03:12:15: Mesh: Loading ID290.001.mesh.
+03:12:15: Mesh: Loading ID284.001.mesh.
+03:12:15: Mesh: Loading ID252.mesh.
+03:12:15: Mesh: Loading ID246.mesh.
+03:12:15: Mesh: Loading ID240.mesh.
+03:12:15: Mesh: Loading ID234.mesh.
+03:12:15: Mesh: Loading ID278.001.mesh.
+03:12:15: Mesh: Loading ID270.mesh.
+03:12:15: Mesh: Loading ID264.mesh.
+03:12:15: Mesh: Loading ID258.mesh.
+03:12:15: Mesh: Loading ID1040.mesh.
+03:12:15: Mesh: Loading ID1046.mesh.
+03:12:15: Mesh: Loading ID2126.mesh.
+03:12:15: Mesh: Loading ID2132.mesh.
+03:12:15: Mesh: Loading ID2114.mesh.
+03:12:15: Mesh: Loading ID2120.mesh.
+03:12:15: Mesh: Loading ID2102.mesh.
+03:12:15: Mesh: Loading ID2108.mesh.
+03:12:15: Mesh: Loading ID2090.mesh.
+03:12:15: Mesh: Loading ID2096.mesh.
+03:12:15: Mesh: Loading ID2078.mesh.
+03:12:15: Mesh: Loading ID2084.mesh.
+03:12:15: Mesh: Loading ID1616.mesh.
+03:12:15: Mesh: Loading ID1610.mesh.
+03:12:15: Mesh: Loading ID1604.mesh.
+03:12:15: Mesh: Loading ID1598.mesh.
+03:12:15: Mesh: Loading ID1640.mesh.
+03:12:15: Mesh: Loading ID1634.mesh.
+03:12:15: Mesh: Loading ID1628.mesh.
+03:12:15: Mesh: Loading ID1622.mesh.
+03:12:15: Mesh: Loading ID1652.mesh.
+03:12:15: Mesh: Loading ID1646.mesh.
+03:12:15: Mesh: Loading ID558.mesh.
+03:12:15: Mesh: Loading ID552.mesh.
+03:12:15: Mesh: Loading ID546.mesh.
+03:12:15: Mesh: Loading ID540.mesh.
+03:12:15: Mesh: Loading ID534.mesh.
+03:12:15: Mesh: Loading ID524.mesh.
+03:12:15: Mesh: Loading ID518.mesh.
+03:12:15: Mesh: Loading ID510.mesh.
+03:12:15: Mesh: Loading ID504.mesh.
+03:12:15: Mesh: Loading ID496.001.mesh.
+03:12:15: Mesh: Loading ID746.mesh.
+03:12:15: Mesh: Loading ID740.mesh.
+03:12:15: Mesh: Loading ID734.mesh.
+03:12:15: Mesh: Loading ID728.mesh.
+03:12:15: Mesh: Loading ID722.mesh.
+03:12:15: Mesh: Loading ID716.mesh.
+03:12:15: Mesh: Loading ID710.mesh.
+03:12:15: Mesh: Loading ID704.mesh.
+03:12:15: Mesh: Loading ID698.mesh.
+03:12:15: Mesh: Loading ID690.mesh.
+03:12:15: Mesh: Loading ID186.mesh.
+03:12:15: Mesh: Loading ID192.mesh.
+03:12:15: Mesh: Loading ID174.mesh.
+03:12:15: Mesh: Loading ID180.mesh.
+03:12:15: Mesh: Loading ID210.mesh.
+03:12:15: Mesh: Loading ID216.mesh.
+03:12:15: Mesh: Loading ID198.mesh.
+03:12:15: Mesh: Loading ID204.mesh.
+03:12:15: Mesh: Loading ID222.mesh.
+03:12:15: Mesh: Loading ID228.mesh.
+03:12:15: Mesh: Loading ID2612.mesh.
+03:12:15: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID2612.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:15: [DotSceneLoader] Error loading an entity!
+03:12:15: Mesh: Loading ID2606.mesh.
+03:12:15: Mesh: Loading ID2564.mesh.
+03:12:15: Mesh: Loading ID2558.mesh.
+03:12:15: Mesh: Loading ID2576.mesh.
+03:12:15: Mesh: Loading ID2570.mesh.
+03:12:15: Mesh: Loading ID2588.mesh.
+03:12:15: Mesh: Loading ID2582.mesh.
+03:12:15: Mesh: Loading ID2600.mesh.
+03:12:15: Mesh: Loading ID2594.mesh.
+03:12:15: Mesh: Loading ID2372.mesh.
+03:12:16: Mesh: Loading ID1106.mesh.
+03:12:16: Mesh: Loading ID1100.mesh.
+03:12:16: Mesh: Loading ID1928.mesh.
+03:12:16: Mesh: Loading ID1922.mesh.
+03:12:16: Mesh: Loading ID1940.mesh.
+03:12:16: Mesh: Loading ID1934.mesh.
+03:12:16: Mesh: Loading ID1904.mesh.
+03:12:16: Mesh: Loading ID1898.mesh.
+03:12:16: Mesh: Loading ID1916.mesh.
+03:12:16: Mesh: Loading ID1910.mesh.
+03:12:16: Mesh: Loading ID1952.mesh.
+03:12:16: Mesh: Loading ID1946.mesh.
+03:12:16: Mesh: Loading ID2414.mesh.
+03:12:16: Mesh: Loading ID2384.mesh.
+03:12:16: Mesh: Loading ID2378.mesh.
+03:12:16: Mesh: Loading ID1058.mesh.
+03:12:16: Mesh: Loading ID2396.mesh.
+03:12:16: Mesh: Loading ID1712.mesh.
+03:12:16: Mesh: Loading ID2390.mesh.
+03:12:16: Mesh: Loading ID1772.mesh.
+03:12:16: Mesh: Loading ID1766.mesh.
+03:12:16: Mesh: Loading ID1748.mesh.
+03:12:16: Mesh: Loading ID1742.mesh.
+03:12:16: Mesh: Loading ID1760.mesh.
+03:12:16: Mesh: Loading ID1754.mesh.
+03:12:16: Mesh: Loading ID1724.mesh.
+03:12:16: Mesh: Loading ID1718.mesh.
+03:12:16: Mesh: Loading ID1736.mesh.
+03:12:16: Mesh: Loading ID1730.mesh.
+03:12:16: Mesh: Loading ID950.mesh.
+03:12:16: Mesh: Loading ID944.mesh.
+03:12:16: Mesh: Loading ID938.mesh.
+03:12:16: Mesh: Loading ID932.mesh.
+03:12:16: Mesh: Loading ID974.mesh.
+03:12:16: Mesh: Loading ID968.mesh.
+03:12:16: Mesh: Loading ID962.mesh.
+03:12:16: Mesh: Loading ID956.mesh.
+03:12:16: Mesh: Loading ID986.mesh.
+03:12:16: Mesh: Loading ID980.mesh.
+03:12:16: Mesh: Loading ID1346.mesh.
+03:12:16: Mesh: Loading ID1352.mesh.
+03:12:16: Mesh: Loading ID1308.mesh.
+03:12:16: Mesh: Loading ID1316.mesh.
+03:12:16: Mesh: Loading ID1296.mesh.
+03:12:16: Mesh: Loading ID1302.mesh.
+03:12:16: Mesh: Loading ID1334.mesh.
+03:12:16: Mesh: Loading ID1340.mesh.
+03:12:16: Mesh: Loading ID1322.mesh.
+03:12:16: Mesh: Loading ID1328.mesh.
+03:12:16: Mesh: Loading ID466.001.mesh.
+03:12:16: Mesh: Loading ID472.001.mesh.
+03:12:16: Mesh: Loading ID452.mesh.
+03:12:16: Mesh: Loading ID460.001.mesh.
+03:12:16: Mesh: Loading ID438.mesh.
+03:12:16: Mesh: Loading ID444.mesh.
+03:12:16: Mesh: Loading ID426.mesh.
+03:12:16: Mesh: Loading ID432.mesh.
+03:12:16: Mesh: Loading ID480.mesh.
+03:12:16: Mesh: Loading ID488.mesh.
+03:12:16: Mesh: Loading ID2060.mesh.
+03:12:16: Mesh: Loading ID2054.mesh.
+03:12:16: Mesh: Loading ID2048.mesh.
+03:12:16: Mesh: Loading ID2042.mesh.
+03:12:16: Mesh: Loading ID2036.mesh.
+03:12:16: Mesh: Loading ID2030.mesh.
+03:12:16: Mesh: Loading ID2024.mesh.
+03:12:16: Mesh: Loading ID2018.mesh.
+03:12:16: Mesh: Loading ID2498.mesh.
+03:12:16: Mesh: Loading ID2186.mesh.
+03:12:16: Mesh: Loading ID2510.mesh.
+03:12:16: Mesh: Loading ID2516.mesh.
+03:12:16: Mesh: Loading ID2522.mesh.
+03:12:16: Mesh: Loading ID2528.mesh.
+03:12:16: Mesh: Loading ID2534.mesh.
+03:12:16: Mesh: Loading ID2540.mesh.
+03:12:16: Mesh: Loading ID2546.mesh.
+03:12:16: Mesh: Loading ID2552.mesh.
+03:12:16: Mesh: Loading ID2156.mesh.
+03:12:16: Mesh: Loading ID2150.mesh.
+03:12:16: Mesh: Loading ID2168.mesh.
+03:12:16: Mesh: Loading ID2162.mesh.
+03:12:16: Mesh: Loading ID2180.mesh.
+03:12:16: Mesh: Loading ID2174.mesh.
+03:12:16: Mesh: Loading ID2192.mesh.
+03:12:16: Mesh: Loading ID2504.mesh.
+03:12:16: Mesh: Loading ID2144.mesh.
+03:12:16: Mesh: Loading ID2138.mesh.
+03:12:16: Mesh: Loading ID2006.mesh.
+03:12:16: Mesh: Loading ID2012.mesh.
+03:12:16: Mesh: Loading ID1586.mesh.
+03:12:17: Mesh: Loading ID1592.mesh.
+03:12:17: Mesh: Loading ID1574.mesh.
+03:12:17: Mesh: Loading ID1580.mesh.
+03:12:17: Mesh: Loading ID1562.mesh.
+03:12:17: Mesh: Loading ID1568.mesh.
+03:12:17: Mesh: Loading ID1550.mesh.
+03:12:17: Mesh: Loading ID1556.mesh.
+03:12:17: Mesh: Loading ID1538.mesh.
+03:12:17: Mesh: Loading ID1544.mesh.
+03:12:17: Mesh: Loading ID800.mesh.
+03:12:17: Mesh: Loading ID806.mesh.
+03:12:17: Mesh: Loading ID764.mesh.
+03:12:17: Mesh: Loading ID770.mesh.
+03:12:17: Mesh: Loading ID752.mesh.
+03:12:17: Mesh: Loading ID758.mesh.
+03:12:17: Mesh: Loading ID788.mesh.
+03:12:17: Mesh: Loading ID794.mesh.
+03:12:17: Mesh: Loading ID776.mesh.
+03:12:17: Mesh: Loading ID782.mesh.
+03:12:17: Mesh: Loading ID168.mesh.
+03:12:17: Mesh: Loading ID162.mesh.
+03:12:17: Mesh: Loading ID144.mesh.
+03:12:17: Mesh: Loading ID138.mesh.
+03:12:17: Mesh: Loading ID156.mesh.
+03:12:17: Mesh: Loading ID150.mesh.
+03:12:17: Mesh: Loading ID120.mesh.
+03:12:17: Mesh: Loading ID114.mesh.
+03:12:17: Mesh: Loading ID132.mesh.
+03:12:17: Mesh: Loading ID126.mesh.
+03:12:17: Mesh: Loading ID2408.mesh.
+03:12:17: Mesh: Loading ID2402.mesh.
+03:12:17: Mesh: Loading ID2198.mesh.
+03:12:17: Mesh: Loading ID2204.mesh.
+03:12:17: Mesh: Loading ID2210.mesh.
+03:12:17: Mesh: Loading ID2216.mesh.
+03:12:17: Mesh: Loading ID2222.mesh.
+03:12:17: Mesh: Loading ID2228.mesh.
+03:12:17: Mesh: Loading ID2234.mesh.
+03:12:17: Mesh: Loading ID2240.mesh.
+03:12:17: Mesh: Loading ID2246.mesh.
+03:12:17: Mesh: Loading ID2252.mesh.
+03:12:17: Mesh: Loading ID2420.mesh.
+03:12:17: Mesh: Loading ID2354.mesh.
+03:12:17: Mesh: Loading ID2360.mesh.
+03:12:17: Mesh: Loading ID2366.mesh.
+03:12:17: Mesh: Loading ID1264.mesh.
+03:12:17: Mesh: Loading ID1258.mesh.
+03:12:17: Mesh: Loading ID1276.mesh.
+03:12:17: Mesh: Loading ID1270.mesh.
+03:12:17: Mesh: Loading ID1240.mesh.
+03:12:17: Mesh: Loading ID1234.mesh.
+03:12:17: Mesh: Loading ID1252.mesh.
+03:12:17: Mesh: Loading ID1246.mesh.
+03:12:17: Mesh: Loading ID1028.mesh.
+03:12:17: Mesh: Loading ID1034.mesh.
+03:12:17: Mesh: Loading ID1016.mesh.
+03:12:17: Mesh: Loading ID1022.mesh.
+03:12:17: Mesh: Loading ID1290.mesh.
+03:12:17: Mesh: Loading ID1282.mesh.
+03:12:17: Mesh: Loading ID992.mesh.
+03:12:17: Mesh: Loading ID998.mesh.
+03:12:17: Mesh: Loading ID1136.mesh.
+03:12:17: Mesh: Loading ID1142.mesh.
+03:12:17: Mesh: Loading ID1148.mesh.
+03:12:17: Mesh: Loading ID1154.mesh.
+03:12:17: Mesh: Loading ID1112.mesh.
+03:12:17: Mesh: Loading ID1118.mesh.
+03:12:17: Mesh: Loading ID1124.mesh.
+03:12:17: Mesh: Loading ID1130.mesh.
+03:12:17: Mesh: Loading ID1004.mesh.
+03:12:17: Mesh: Loading ID1160.mesh.
+03:12:17: Mesh: Loading ID1168.mesh.
+03:12:17: Mesh: Loading ID1010.mesh.
+03:12:17: Mesh: Loading ID362.001.mesh.
+03:12:17: Mesh: Loading ID356.001.mesh.
+03:12:17: Mesh: Loading ID374.001.mesh.
+03:12:17: Mesh: Loading ID368.001.mesh.
+03:12:17: Mesh: Loading ID390.mesh.
+03:12:17: Mesh: Loading ID382.mesh.
+03:12:17: Mesh: Loading ID406.mesh.
+03:12:17: Mesh: Loading ID398.001.mesh.
+03:12:17: Mesh: Loading ID420.mesh.
+03:12:17: Mesh: Loading ID414.mesh.
+03:12:17: Mesh: Loading ID78.001.mesh.
+03:12:17: Mesh: Loading ID1982.mesh.
+03:12:17: Mesh: Loading ID90.001.mesh.
+03:12:17: Mesh: Loading ID96.001.mesh.
+03:12:17: Mesh: Loading ID54.001.mesh.
+03:12:17: Mesh: Loading ID60.001.mesh.
+03:12:18: Mesh: Loading ID66.001.mesh.
+03:12:18: Mesh: Loading ID1988.mesh.
+03:12:18: Mesh: Loading ID102.mesh.
+03:12:18: Mesh: Loading ID1994.mesh.
+03:12:18: Mesh: Loading ID2000.mesh.
+03:12:18: Mesh: Loading ID1958.mesh.
+03:12:18: Mesh: Loading ID1964.mesh.
+03:12:18: Mesh: Loading ID2456.mesh.
+03:12:18: Mesh: Loading ID2450.mesh.
+03:12:18: Mesh: Loading ID2444.mesh.
+03:12:18: Mesh: Loading ID2438.mesh.
+03:12:18: Mesh: Loading ID2480.mesh.
+03:12:18: Mesh: Loading ID2474.mesh.
+03:12:18: Mesh: Loading ID2468.mesh.
+03:12:18: Mesh: Loading ID2462.mesh.
+03:12:18: Mesh: Loading ID2492.mesh.
+03:12:18: Mesh: Loading ID2486.mesh.
+03:12:18: Mesh: Loading ID1532.mesh.
+03:12:18: Mesh: Loading ID1526.mesh.
+03:12:18: Mesh: Loading ID2072.mesh.
+03:12:18: Mesh: Loading ID2066.mesh.
+03:12:18: Mesh: Loading ID1484.mesh.
+03:12:18: Mesh: Loading ID1478.mesh.
+03:12:18: Mesh: Loading ID1496.mesh.
+03:12:18: Mesh: Loading ID1490.mesh.
+03:12:18: Mesh: Loading ID1508.mesh.
+03:12:18: Mesh: Loading ID1502.mesh.
+03:12:18: Mesh: Loading ID1520.mesh.
+03:12:18: Mesh: Loading ID1514.mesh.
+03:12:18: Mesh: Loading ID842.mesh.
+03:12:18: Mesh: Loading ID836.mesh.
+03:12:19: Mesh: Loading ID854.mesh.
+03:12:19: Mesh: Loading ID848.mesh.
+03:12:19: Mesh: Loading ID818.mesh.
+03:12:19: Mesh: Loading ID812.mesh.
+03:12:19: Mesh: Loading ID830.mesh.
+03:12:19: Mesh: Loading ID824.mesh.
+03:12:19: Mesh: Loading ID866.mesh.
+03:12:19: Mesh: Loading ID860.mesh.
+03:12:19: Mesh: Loading ID2330.mesh.
+03:12:19: Mesh: Loading ID2336.mesh.
+03:12:19: Mesh: Loading ID2318.mesh.
+03:12:19: Mesh: Loading ID2324.mesh.
+03:12:19: Mesh: Loading ID1466.mesh.
+03:12:19: Mesh: Loading ID1472.mesh.
+03:12:19: Mesh: Loading ID2342.mesh.
+03:12:19: Mesh: Loading ID2348.mesh.
+03:12:19: Mesh: Loading ID1442.mesh.
+03:12:19: Mesh: Loading ID1448.mesh.
+03:12:19: Mesh: Loading ID1454.mesh.
+03:12:19: Mesh: Loading ID1460.mesh.
+03:12:19: Mesh: Loading ID1418.mesh.
+03:12:19: Mesh: Loading ID1424.mesh.
+03:12:19: Mesh: Loading ID1430.mesh.
+03:12:19: Mesh: Loading ID1436.mesh.
+03:12:19: Mesh: Loading ID344.mesh.
+03:12:19: Mesh: Loading ID350.mesh.
+03:12:19: Mesh: Loading ID296.001.mesh.
+03:12:19: Mesh: Loading ID302.001.mesh.
+03:12:19: Mesh: Loading ID308.001.mesh.
+03:12:19: Mesh: Loading ID314.001.mesh.
+03:12:19: Mesh: Loading ID320.mesh.
+03:12:19: Mesh: Loading ID326.mesh.
+03:12:19: Mesh: Loading ID332.mesh.
+03:12:19: Mesh: Loading ID338.mesh.
+03:12:19: [DotSceneLoader] Parsing dotScene file with version 1.0.0
+03:12:19: Mesh: Loading ID2.mesh.
+03:12:19: Mesh: Loading ID122.mesh.
+03:12:19: Mesh: Loading ID116.mesh.
+03:12:19: Mesh: Loading ID72.mesh.
+03:12:19: Mesh: Loading ID66.mesh.
+03:12:19: Mesh: Loading ID84.mesh.
+03:12:19: Mesh: Loading ID78.mesh.
+03:12:19: Mesh: Loading ID96.mesh.
+03:12:19: Mesh: Loading ID90.mesh.
+03:12:19: Mesh: Loading ID110.mesh.
+03:12:19: Mesh: Loading ID104.mesh.
+03:12:19: Mesh: Loading ID562.mesh.
+03:12:19: Mesh: Loading ID556.mesh.
+03:12:19: Mesh: Loading ID574.mesh.
+03:12:19: Mesh: Loading ID568.mesh.
+03:12:19: Mesh: Loading ID586.mesh.
+03:12:19: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID586.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:19: [DotSceneLoader] Error loading an entity!
+03:12:19: Mesh: Loading ID580.mesh.
+03:12:19: Mesh: Loading ID596.mesh.
+03:12:19: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID596.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:19: [DotSceneLoader] Error loading an entity!
+03:12:19: Mesh: Loading ID592.mesh.
+03:12:19: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID592.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:19: [DotSceneLoader] Error loading an entity!
+03:12:19: Mesh: Loading ID604.mesh.
+03:12:19: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID604.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:19: [DotSceneLoader] Error loading an entity!
+03:12:19: Mesh: Loading ID424.mesh.
+03:12:19: Mesh: Loading ID430.mesh.
+03:12:19: Mesh: Loading ID398.mesh.
+03:12:19: Mesh: Loading ID404.mesh.
+03:12:19: Mesh: Loading ID410.mesh.
+03:12:19: Mesh: Loading ID418.mesh.
+03:12:19: Mesh: Loading ID374.mesh.
+03:12:19: Mesh: Loading ID380.mesh.
+03:12:19: Mesh: Loading ID386.mesh.
+03:12:19: Mesh: Loading ID392.mesh.
+03:12:19: Mesh: Loading ID490.mesh.
+03:12:19: Mesh: Loading ID484.mesh.
+03:12:19: Mesh: Loading ID478.mesh.
+03:12:19: Mesh: Loading ID472.mesh.
+03:12:19: Mesh: Loading ID466.mesh.
+03:12:19: Mesh: Loading ID460.mesh.
+03:12:19: Mesh: Loading ID454.mesh.
+03:12:19: Mesh: Loading ID448.mesh.
+03:12:19: Mesh: Loading ID442.mesh.
+03:12:19: Mesh: Loading ID436.mesh.
+03:12:19: Mesh: Loading ID296.mesh.
+03:12:19: Mesh: Loading ID302.mesh.
+03:12:19: Mesh: Loading ID260.mesh.
+03:12:19: Mesh: Loading ID266.mesh.
+03:12:19: Mesh: Loading ID248.mesh.
+03:12:19: Mesh: Loading ID254.mesh.
+03:12:19: Mesh: Loading ID284.mesh.
+03:12:19: Mesh: Loading ID290.mesh.
+03:12:19: Mesh: Loading ID272.mesh.
+03:12:19: Mesh: Loading ID278.mesh.
+03:12:19: Mesh: Loading ID340.mesh.
+03:12:19: Mesh: Loading ID334.mesh.
+03:12:19: Mesh: Loading ID356.mesh.
+03:12:19: Mesh: Loading ID346.mesh.
+03:12:19: Mesh: Loading ID314.mesh.
+03:12:19: Mesh: Loading ID308.mesh.
+03:12:19: Mesh: Loading ID328.mesh.
+03:12:19: Mesh: Loading ID322.mesh.
+03:12:19: Mesh: Loading ID368.mesh.
+03:12:19: Mesh: Loading ID362.mesh.
+03:12:19: Mesh: Loading ID608.mesh.
+03:12:19: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID608.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:19: [DotSceneLoader] Error loading an entity!
+03:12:19: Mesh: Loading ID128.mesh.
+03:12:20: Mesh: Loading ID134.mesh.
+03:12:20: Mesh: Loading ID140.mesh.
+03:12:20: Mesh: Loading ID146.mesh.
+03:12:20: Mesh: Loading ID152.mesh.
+03:12:20: Mesh: Loading ID158.mesh.
+03:12:20: Mesh: Loading ID164.mesh.
+03:12:20: Mesh: Loading ID170.mesh.
+03:12:20: Mesh: Loading ID176.mesh.
+03:12:20: Mesh: Loading ID182.mesh.
+03:12:20: Mesh: Loading ID206.mesh.
+03:12:20: Mesh: Loading ID200.mesh.
+03:12:20: Mesh: Loading ID194.mesh.
+03:12:20: Mesh: Loading ID188.mesh.
+03:12:20: Mesh: Loading ID230.mesh.
+03:12:20: Mesh: Loading ID224.mesh.
+03:12:20: Mesh: Loading ID218.mesh.
+03:12:20: Mesh: Loading ID212.mesh.
+03:12:20: Mesh: Loading ID242.mesh.
+03:12:20: Mesh: Loading ID236.mesh.
+03:12:20: Mesh: Loading ID54.mesh.
+03:12:20: Mesh: Loading ID60.mesh.
+03:12:20: Mesh: Loading ID42.mesh.
+03:12:20: Mesh: Loading ID48.mesh.
+03:12:20: Mesh: Loading ID28.mesh.
+03:12:20: Mesh: Loading ID34.mesh.
+03:12:20: Mesh: Loading ID16.mesh.
+03:12:20: Mesh: Loading ID22.mesh.
+03:12:20: Mesh: Loading ID10.mesh.
+03:12:20: Mesh: Loading ID532.mesh.
+03:12:20: Mesh: Loading ID538.mesh.
+03:12:20: Mesh: Loading ID520.mesh.
+03:12:20: Mesh: Loading ID526.mesh.
+03:12:20: Mesh: Loading ID508.mesh.
+03:12:20: Mesh: Loading ID514.mesh.
+03:12:20: Mesh: Loading ID496.mesh.
+03:12:20: Mesh: Loading ID502.mesh.
+03:12:20: Mesh: Loading ID544.mesh.
+03:12:20: Mesh: Loading ID550.mesh.
+03:12:20: [DotSceneLoader] Parsing dotScene file with version 1.0.0
+03:12:20: Mesh: Loading ID586.mesh.
+03:12:20: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID586.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:20: [DotSceneLoader] Error loading an entity!
+03:12:20: Mesh: Loading ID596.mesh.
+03:12:20: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID596.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:20: [DotSceneLoader] Error loading an entity!
+03:12:20: Mesh: Loading ID592.mesh.
+03:12:20: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID592.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:20: [DotSceneLoader] Error loading an entity!
+03:12:20: Mesh: Loading ID604.mesh.
+03:12:20: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID604.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:20: [DotSceneLoader] Error loading an entity!
+03:12:20: Mesh: Loading ID608.mesh.
+03:12:20: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID608.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:20: [DotSceneLoader] Error loading an entity!
+03:12:20: [DotSceneLoader] Parsing dotScene file with version 1.0.0
+03:12:20: Mesh: Loading ID586.mesh.
+03:12:20: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID586.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:20: [DotSceneLoader] Error loading an entity!
+03:12:20: Mesh: Loading ID596.mesh.
+03:12:20: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID596.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:20: [DotSceneLoader] Error loading an entity!
+03:12:20: Mesh: Loading ID592.mesh.
+03:12:20: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID592.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:20: [DotSceneLoader] Error loading an entity!
+03:12:20: Mesh: Loading ID604.mesh.
+03:12:20: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID604.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:20: [DotSceneLoader] Error loading an entity!
+03:12:20: Mesh: Loading ID608.mesh.
+03:12:20: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource ID608.mesh in resource group General or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+03:12:20: [DotSceneLoader] Error loading an entity!
+03:12:20: Mesh: Loading OurMesh.mesh.
+03:12:20: WARNING: OurMesh.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+03:12:20: Creating resource group BtOgre
+03:12:20: Mesh: Loading robot.mesh.
+03:12:21: Skeleton: Loading robot.skeleton
+03:12:21: WARNING: robot.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+03:12:21: Texture: r2skin.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 9 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+03:12:23: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) with 7 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+03:12:27: Mesh: Loading cube.mesh.
+03:12:27: Texture: RustedMetal.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 9 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.

@@ -1,0 +1,25 @@
+Hi and welcome to our virtual reality project video.
+
+This is our project where we are using the Microsoft Kinect as our tracking system alongside Ogre3D for 3D programming and modeling, Bullet Physics for the physics engine, and OpenAL for stereoscopic sound. We got most of our models from Google 3D warehouse. Google Sketchup alongside with Blender are then used to export the models to Ogre.
+
+The goal of the project is to create a virtual experience, and we decided to place our setting in a futuristic city with a clear view of space. If you noticed our character dropped down from a dropship which is from Halo. There are multiple dropships in the map that patrols. If you listen closely you can hear the stereoscopic sound.
+
+And here is one of the models we made from Blender which we then exported to Ogre3D. And here you can see another dropship that is patrolling.
+
+You have a flashlight you can turn on and off, showing off dynamic lighting.
+
+Let's move around the city and see what we can find.
+
+You can find robots that patrol the street. We wanted to add these just to test animation. It is small on purpose to make the city bigger in comparison. You can notice how the projectiles are bouncing off of the robot.
+
+You can fire projectiles and they will bounce off to show off the physics. Right now it is merely firing cubes with rusted metal meshes. We can change this to anything we want, like missiles or bullets.
+
+Notice how you have a jetpack. The world does contain gravity, so you will slowly descend if you stop accelerating upward. Here is a nice view of the city from above and you can also notice the space, which is just a skybox.
+
+Here are some more examples of dynamic lighting by playing around with the flashlight. You can also see some shadow effects.
+
+This is the debug mode for Ogre. It outlines the shapes for our objects which was very useful. This allowed us to test the project easier. Collision detection was one of those things we tested with this. You can see the outline of the dropships and our projectiles being fired off.
+
+Here is one of the robots we saw earlier. Notice the outline around the robot. Now we are being pushed by the robot. This just shows the physics engine at work.
+
+Thank you for watching our video, it has been fun doing this project and we hope you had fun watching the video.

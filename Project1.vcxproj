@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9877F38A-BF3F-4FD2-A855-DE2FA16FE95F}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <SccProjectName>Svn</SccProjectName>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(OpenALInc)\;$(OISInc);$(Boost);$(ProjectDir)vrpn\;$(OgreInclude);$(BULLETSRC)\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OgreLibDebug);$(Boost)lib;$(OpenALLib);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(OpenALInc)\;$(OISInc);$(Boost);$(ProjectDir)vrpn\;$(OgreInclude);$(BULLETSRC)\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OgreLibRelease);$(Boost)lib;$(OpenALLib);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalOptions>/MDd %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;winmm.lib;OpenAL32.lib;alut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;winmm.lib;OpenAL32.lib;alut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationManager.cpp" />
+    <ClCompile Include="BtOgre.cpp" />
+    <ClCompile Include="DotSceneLoader.cpp" />
+    <ClCompile Include="FAASTClient.cpp" />
+    <ClCompile Include="GameTimer.cpp" />
+    <ClCompile Include="GraphicsInterface.cpp" />
+    <ClCompile Include="KinematicMotionState.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OpenALSoundSystem.cpp" />
+    <ClCompile Include="PhysicsInterface.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationManager.h" />
+    <ClInclude Include="BtOgreExtras.h" />
+    <ClInclude Include="BtOgreGP.h" />
+    <ClInclude Include="BtOgrePG.h" />
+    <ClInclude Include="DotSceneLoader.h" />
+    <ClInclude Include="FAASTClient.h" />
+    <ClInclude Include="GameTimer.h" />
+    <ClInclude Include="GraphicsInterface.h" />
+    <ClInclude Include="KinematicMotionState.h" />
+    <ClInclude Include="OpenALSoundSystem.h" />
+    <ClInclude Include="PhysicsInterface.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="vrpn\vrpn_3DConnexion.h" />
+    <ClInclude Include="vrpn\vrpn_3DMicroscribe.h" />
+    <ClInclude Include="vrpn\vrpn_3Space.h" />
+    <ClInclude Include="vrpn\vrpn_5DT16.h" />
+    <ClInclude Include="vrpn\vrpn_ADBox.h" />
+    <ClInclude Include="vrpn\vrpn_Analog.h" />
+    <ClInclude Include="vrpn\vrpn_Analog_5dt.h" />
+    <ClInclude Include="vrpn\vrpn_Analog_Output.h" />
+    <ClInclude Include="vrpn\vrpn_Analog_Radamec_SPI.h" />
+    <ClInclude Include="vrpn\vrpn_Analog_USDigital_A2.h" />
+    <ClInclude Include="vrpn\vrpn_Atmel.h" />
+    <ClInclude Include="vrpn\vrpn_Auxiliary_Logger.h" />
+    <ClInclude Include="vrpn\vrpn_BaseClass.h" />
+    <ClInclude Include="vrpn\vrpn_Button.h" />
+    <ClInclude Include="vrpn\vrpn_Button_NI_DIO24.h" />
+    <ClInclude Include="vrpn\vrpn_Button_USB.h" />
+    <ClInclude Include="vrpn\vrpn_CerealBox.h" />
+    <ClInclude Include="vrpn\vrpn_Configure.h" />
+    <ClInclude Include="vrpn\vrpn_Connection.h" />
+    <ClInclude Include="vrpn\vrpn_ConnectionTypes.h" />
+    <ClInclude Include="vrpn\vrpn_Dial.h" />
+    <ClInclude Include="vrpn\vrpn_DirectXFFJoystick.h" />
+    <ClInclude Include="vrpn\vrpn_DirectXRumblePad.h" />
+    <ClInclude Include="vrpn\vrpn_Dyna.h" />
+    <ClInclude Include="vrpn\vrpn_Event.h" />
+    <ClInclude Include="vrpn\vrpn_Event_Analog.h" />
+    <ClInclude Include="vrpn\vrpn_Event_Mouse.h" />
+    <ClInclude Include="vrpn\vrpn_FileConnection.h" />
+    <ClInclude Include="vrpn\vrpn_FileController.h" />
+    <ClInclude Include="vrpn\vrpn_Flock.h" />
+    <ClInclude Include="vrpn\vrpn_Flock_Parallel.h" />
+    <ClInclude Include="vrpn\vrpn_ForceDevice.h" />
+    <ClInclude Include="vrpn\vrpn_ForceDeviceServer.h" />
+    <ClInclude Include="vrpn\vrpn_Forwarder.h" />
+    <ClInclude Include="vrpn\vrpn_ForwarderController.h" />
+    <ClInclude Include="vrpn\vrpn_FunctionGenerator.h" />
+    <ClInclude Include="vrpn\vrpn_GlobalHapticsOrb.h" />
+    <ClInclude Include="vrpn\vrpn_HashST.h" />
+    <ClInclude Include="vrpn\vrpn_HumanInterface.h" />
+    <ClInclude Include="vrpn\vrpn_Imager.h" />
+    <ClInclude Include="vrpn\vrpn_Imager_Stream_Buffer.h" />
+    <ClInclude Include="vrpn\vrpn_ImmersionBox.h" />
+    <ClInclude Include="vrpn\vrpn_inertiamouse.h" />
+    <ClInclude Include="vrpn\vrpn_JoyFly.h" />
+    <ClInclude Include="vrpn\vrpn_Joylin.h" />
+    <ClInclude Include="vrpn\vrpn_Joywin32.h" />
+    <ClInclude Include="vrpn\vrpn_Keyboard.h" />
+    <ClInclude Include="vrpn\vrpn_LamportClock.h" />
+    <ClInclude Include="vrpn\vrpn_Log.h" />
+    <ClInclude Include="vrpn\vrpn_Magellan.h" />
+    <ClInclude Include="vrpn\vrpn_Mouse.h" />
+    <ClInclude Include="vrpn\vrpn_Mutex.h" />
+    <ClInclude Include="vrpn\vrpn_NationalInstruments.h" />
+    <ClInclude Include="vrpn\vrpn_Nidaq.h" />
+    <ClInclude Include="vrpn\vrpn_nikon_controls.h" />
+    <ClInclude Include="vrpn\vrpn_Poser.h" />
+    <ClInclude Include="vrpn\vrpn_Poser_Analog.h" />
+    <ClInclude Include="vrpn\vrpn_Poser_Tek4662.h" />
+    <ClInclude Include="vrpn\vrpn_raw_sgibox.h" />
+    <ClInclude Include="vrpn\vrpn_RedundantTransmission.h" />
+    <ClInclude Include="vrpn\vrpn_Serial.h" />
+    <ClInclude Include="vrpn\vrpn_sgibox.h" />
+    <ClInclude Include="vrpn\vrpn_Shared.h" />
+    <ClInclude Include="vrpn\vrpn_SharedObject.h" />
+    <ClInclude Include="vrpn\vrpn_Sound.h" />
+    <ClInclude Include="vrpn\vrpn_Spaceball.h" />
+    <ClInclude Include="vrpn\vrpn_Text.h" />
+    <ClInclude Include="vrpn\vrpn_Tng3.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_3DMouse.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_AnalogFly.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_ButtonFly.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_Crossbow.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_DTrack.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_Fastrak.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_isense.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_Liberty.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_MotionNode.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_NDI_Polaris.h" />
+    <ClInclude Include="vrpn\vrpn_Tracker_PhaseSpace.h" />
+    <ClInclude Include="vrpn\vrpn_TypeDispatcher.h" />
+    <ClInclude Include="vrpn\vrpn_Types.h" />
+    <ClInclude Include="vrpn\vrpn_UNC_Joystick.h" />
+    <ClInclude Include="vrpn\vrpn_VPJoystick.h" />
+    <ClInclude Include="vrpn\vrpn_Wanda.h" />
+    <ClInclude Include="vrpn\vrpn_WiiMote.h" />
+    <ClInclude Include="vrpn\vrpn_XInputGamepad.h" />
+    <ClInclude Include="vrpn\vrpn_Xkeys.h" />
+    <ClInclude Include="vrpn\vrpn_Zaber.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\BulletPhysics\binaries\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{257cee1a-aac9-4dfd-ba73-2f3a2c3111b9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\BulletPhysics\binaries\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{84b0588d-6d6e-4710-95c9-7b0e6c96395a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\BulletPhysics\binaries\src\LinearMath\LinearMath.vcxproj">
+      <Project>{f633ede1-e268-4a3e-845f-f1fc537a5fe7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:\Bullet-2.77\VS2010\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{232a7de5-a73f-4ba1-bb0c-99fbb4f7c46f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:\Bullet-2.77\VS2010\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{891eb3d3-610a-436b-85a6-b1612ea0389c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:\Bullet-2.77\VS2010\src\LinearMath\LinearMath.vcxproj">
+      <Project>{1b7caf41-43d1-433e-8d27-525f1006c17d}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="vrpn\vrpn.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="brick.material" />
+    <None Include="plugins.cfg" />
+    <None Include="plugins_release.cfg" />
+    <None Include="resources.cfg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

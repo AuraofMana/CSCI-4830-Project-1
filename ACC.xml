@@ -1,0 +1,609 @@
+<scene formatVersion="1.0.0">
+  <nodes>
+    <node name="">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="" meshFile="ID2.mesh"/>
+    </node>
+    <node name=".019">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".019" meshFile="ID122.mesh"/>
+    </node>
+    <node name=".018">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".018" meshFile="ID116.mesh"/>
+    </node>
+    <node name=".011">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".011" meshFile="ID72.mesh"/>
+    </node>
+    <node name=".010">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".010" meshFile="ID66.mesh"/>
+    </node>
+    <node name=".013">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".013" meshFile="ID84.mesh"/>
+    </node>
+    <node name=".012">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".012" meshFile="ID78.mesh"/>
+    </node>
+    <node name=".015">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".015" meshFile="ID96.mesh"/>
+    </node>
+    <node name=".014">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".014" meshFile="ID90.mesh"/>
+    </node>
+    <node name=".017">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".017" meshFile="ID110.mesh"/>
+    </node>
+    <node name=".016">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".016" meshFile="ID104.mesh"/>
+    </node>
+    <node name=".091">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".091" meshFile="ID562.mesh"/>
+    </node>
+    <node name=".090">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".090" meshFile="ID556.mesh"/>
+    </node>
+    <node name=".093">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".093" meshFile="ID574.mesh"/>
+    </node>
+    <node name=".092">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".092" meshFile="ID568.mesh"/>
+    </node>
+    <node name=".095">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".095" meshFile="ID586.mesh"/>
+    </node>
+    <node name=".094">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".094" meshFile="ID580.mesh"/>
+    </node>
+    <node name=".097">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".097" meshFile="ID596.mesh"/>
+    </node>
+    <node name=".096">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".096" meshFile="ID592.mesh"/>
+    </node>
+    <node name=".099">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".099" meshFile="ID604.mesh"/>
+    </node>
+    <node name=".068">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".068" meshFile="ID424.mesh"/>
+    </node>
+    <node name=".069">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".069" meshFile="ID430.mesh"/>
+    </node>
+    <node name=".064">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".064" meshFile="ID398.mesh"/>
+    </node>
+    <node name=".065">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".065" meshFile="ID404.mesh"/>
+    </node>
+    <node name=".066">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".066" meshFile="ID410.mesh"/>
+    </node>
+    <node name=".067">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".067" meshFile="ID418.mesh"/>
+    </node>
+    <node name=".060">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".060" meshFile="ID374.mesh"/>
+    </node>
+    <node name=".061">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".061" meshFile="ID380.mesh"/>
+    </node>
+    <node name=".062">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".062" meshFile="ID386.mesh"/>
+    </node>
+    <node name=".063">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".063" meshFile="ID392.mesh"/>
+    </node>
+    <node name=".079">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".079" meshFile="ID490.mesh"/>
+    </node>
+    <node name=".078">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".078" meshFile="ID484.mesh"/>
+    </node>
+    <node name=".077">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".077" meshFile="ID478.mesh"/>
+    </node>
+    <node name=".076">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".076" meshFile="ID472.mesh"/>
+    </node>
+    <node name=".075">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".075" meshFile="ID466.mesh"/>
+    </node>
+    <node name=".074">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".074" meshFile="ID460.mesh"/>
+    </node>
+    <node name=".073">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".073" meshFile="ID454.mesh"/>
+    </node>
+    <node name=".072">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".072" meshFile="ID448.mesh"/>
+    </node>
+    <node name=".071">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".071" meshFile="ID442.mesh"/>
+    </node>
+    <node name=".070">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".070" meshFile="ID436.mesh"/>
+    </node>
+    <node name=".048">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".048" meshFile="ID296.mesh"/>
+    </node>
+    <node name=".049">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".049" meshFile="ID302.mesh"/>
+    </node>
+    <node name=".042">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".042" meshFile="ID260.mesh"/>
+    </node>
+    <node name=".043">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".043" meshFile="ID266.mesh"/>
+    </node>
+    <node name=".040">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".040" meshFile="ID248.mesh"/>
+    </node>
+    <node name=".041">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".041" meshFile="ID254.mesh"/>
+    </node>
+    <node name=".046">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".046" meshFile="ID284.mesh"/>
+    </node>
+    <node name=".047">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".047" meshFile="ID290.mesh"/>
+    </node>
+    <node name=".044">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".044" meshFile="ID272.mesh"/>
+    </node>
+    <node name=".045">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".045" meshFile="ID278.mesh"/>
+    </node>
+    <node name=".055">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".055" meshFile="ID340.mesh"/>
+    </node>
+    <node name=".054">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".054" meshFile="ID334.mesh"/>
+    </node>
+    <node name=".057">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".057" meshFile="ID356.mesh"/>
+    </node>
+    <node name=".056">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".056" meshFile="ID346.mesh"/>
+    </node>
+    <node name=".051">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".051" meshFile="ID314.mesh"/>
+    </node>
+    <node name=".050">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".050" meshFile="ID308.mesh"/>
+    </node>
+    <node name=".053">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".053" meshFile="ID328.mesh"/>
+    </node>
+    <node name=".052">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".052" meshFile="ID322.mesh"/>
+    </node>
+    <node name=".059">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".059" meshFile="ID368.mesh"/>
+    </node>
+    <node name=".058">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".058" meshFile="ID362.mesh"/>
+    </node>
+    <node name=".100">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".100" meshFile="ID608.mesh"/>
+    </node>
+    <node name=".020">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".020" meshFile="ID128.mesh"/>
+    </node>
+    <node name=".021">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".021" meshFile="ID134.mesh"/>
+    </node>
+    <node name=".022">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".022" meshFile="ID140.mesh"/>
+    </node>
+    <node name=".023">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".023" meshFile="ID146.mesh"/>
+    </node>
+    <node name=".024">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".024" meshFile="ID152.mesh"/>
+    </node>
+    <node name=".025">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".025" meshFile="ID158.mesh"/>
+    </node>
+    <node name=".026">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".026" meshFile="ID164.mesh"/>
+    </node>
+    <node name=".027">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".027" meshFile="ID170.mesh"/>
+    </node>
+    <node name=".028">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".028" meshFile="ID176.mesh"/>
+    </node>
+    <node name=".029">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".029" meshFile="ID182.mesh"/>
+    </node>
+    <node name=".033">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".033" meshFile="ID206.mesh"/>
+    </node>
+    <node name=".032">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".032" meshFile="ID200.mesh"/>
+    </node>
+    <node name=".031">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".031" meshFile="ID194.mesh"/>
+    </node>
+    <node name=".030">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".030" meshFile="ID188.mesh"/>
+    </node>
+    <node name=".037">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".037" meshFile="ID230.mesh"/>
+    </node>
+    <node name=".036">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".036" meshFile="ID224.mesh"/>
+    </node>
+    <node name=".035">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".035" meshFile="ID218.mesh"/>
+    </node>
+    <node name=".034">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".034" meshFile="ID212.mesh"/>
+    </node>
+    <node name=".039">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".039" meshFile="ID242.mesh"/>
+    </node>
+    <node name=".038">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".038" meshFile="ID236.mesh"/>
+    </node>
+    <node name=".008">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".008" meshFile="ID54.mesh"/>
+    </node>
+    <node name=".009">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".009" meshFile="ID60.mesh"/>
+    </node>
+    <node name=".006">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".006" meshFile="ID42.mesh"/>
+    </node>
+    <node name=".007">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".007" meshFile="ID48.mesh"/>
+    </node>
+    <node name=".004">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".004" meshFile="ID28.mesh"/>
+    </node>
+    <node name=".005">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".005" meshFile="ID34.mesh"/>
+    </node>
+    <node name=".002">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".002" meshFile="ID16.mesh"/>
+    </node>
+    <node name=".003">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".003" meshFile="ID22.mesh"/>
+    </node>
+    <node name=".001">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".001" meshFile="ID10.mesh"/>
+    </node>
+    <node name=".086">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".086" meshFile="ID532.mesh"/>
+    </node>
+    <node name=".087">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".087" meshFile="ID538.mesh"/>
+    </node>
+    <node name=".084">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".084" meshFile="ID520.mesh"/>
+    </node>
+    <node name=".085">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".085" meshFile="ID526.mesh"/>
+    </node>
+    <node name=".082">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".082" meshFile="ID508.mesh"/>
+    </node>
+    <node name=".083">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".083" meshFile="ID514.mesh"/>
+    </node>
+    <node name=".080">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".080" meshFile="ID496.mesh"/>
+    </node>
+    <node name=".081">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".081" meshFile="ID502.mesh"/>
+    </node>
+    <node name=".088">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".088" meshFile="ID544.mesh"/>
+    </node>
+    <node name=".089">
+      <position x="-43.175007" y="0.000000" z="149.385529"/>
+      <quaternion x="0.000000" y="0.000000" z="-0.000000" w="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name=".089" meshFile="ID550.mesh"/>
+    </node>
+  </nodes>
+  <externals>
+    <item type="material">
+      <file name=".material"/>
+    </item>
+  </externals>
+</scene>

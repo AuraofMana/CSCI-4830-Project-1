@@ -1,0 +1,102 @@
+material ID347
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 0.709804
+			diffuse 0.103529 0.153725 0.247843 0.709804
+			specular 0.000000 0.000000 0.000000 0.709804 12.500000
+			emissive 0.000000 0.000000 0.000000 0.709804
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+}
+material ID100
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.109804 0.109804 0.109804 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+material ID352
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 0.980392
+			diffuse 0.078431 0.116078 0.191373 0.980392
+			specular 0.000000 0.000000 0.000000 0.980392 12.500000
+			emissive 0.000000 0.000000 0.000000 0.980392
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+}
+material ID318
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.207059 0.163137 0.125490 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+material ID3
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.254118 0.254118 0.254118 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+material ID414
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.709020 0.709020 0.709020 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+material ID38
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.800000 0.480000 0.156863 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
